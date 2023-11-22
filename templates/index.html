@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/style.css">
+        <script src="/static/js/index.js"></script>
+    </head>
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Check for your Diabetes status</h3>
+                    <p>Fill in the data below.</p>
+                    <form action="result" class="requires-validation" novalidate method="POST" required>
+
+                        <div class="col-md-12">
+                           <input class="form-control" type="text" name="age" placeholder="Age" required>
+                           <div class="valid-feedback"></div>
+                           <div class="invalid-feedback"></div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" name="hypertension" placeholder="hypertension" required>
+                             <div class="valid-feedback"></div>
+                             <div class="invalid-feedback"></div>
+                        </div>
+
+                       <div class="col-md-12">
+                            <select class="form-select mt-3" name="heart_disease" required>
+                                  <option value="1">Negative</option>
+                                  <option value="0">Positive</option>
+                           </select>
+                            <div class="valid-feedback"></div>
+                            <div class="invalid-feedback"></div>
+                       </div>
+
+
+                       <div class="col-md-12">
+                          <input class="form-control" type="text" name="bmi" placeholder="BMI" required>
+                           <div class="valid-feedback"></div>
+                           <div class="invalid-feedback"></div>
+                       </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="text" name="HbA1c_level" id="HbA1c_level" placeholder="HbA1c_level" required>
+                      <label class="form-check-label"></label>
+                     <div class="invalid-feedback"></div>
+                    </div>
+            
+                    <div class="form-check">
+                        <input class="form-check-input" type="text" name="blood_glucose_level" id="blood_glucose_level" placeholder="blood_glucose_level" required>
+                        <label class="form-check-label"></label>
+                       <div class="invalid-feedback"></div>
+                      </div>
+
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Predict</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

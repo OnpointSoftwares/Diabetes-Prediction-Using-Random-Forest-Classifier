@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/style.css">
+        <script src="/static/js/index.js"></script>
+    </head>
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Results release</h3>
+                    {% if result == 1 %}
+                  <h1> <strong>I am worried you are positive with Diabetes. Visit a doctor as soon as possible</strong></h1>
+                   {% endif %}
+                   {% if result == 0 %}
+                   <h1><strong>Congratulations you are free from diabetes</strong></h1>
+                   {% endif %}
+                   <a href="/" style="color: bisque;">Navigate back to Home</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

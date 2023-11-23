@@ -27,7 +27,7 @@ Welcome to the Diabetes Prediction System project! This system aims to predict t
 ### Prerequisites
 
 - [Python](https://www.python.org/) installed
-- - [Flask]() installed
+  -[Flask]() installed
 - [pip](https://pypi.org/project/pip/) (Python package installer) installed
 
 ### Installation

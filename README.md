@@ -19,10 +19,10 @@ Welcome to the Diabetes Prediction System project! This system aims to predict t
 ## Screenshots
 
 ![Screenshot 1](screenshots/Screenshot_2023-11-22_13_54_26.png)
-*Caption: Predicting diabetes likelihood based on user input.*
-
-![Screenshot 2](screenshots/screenshot2.png)
 *Caption: User-friendly interface for inputting health data.*
+
+![Screenshot 2](screenshots//Screenshot_2023-11-22_13_54_36.png)
+*Caption: Predicting diabetes likelihood based on user input.*
 
 ## Getting Started
 

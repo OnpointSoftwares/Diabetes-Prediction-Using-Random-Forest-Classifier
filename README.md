@@ -14,8 +14,6 @@ Welcome to the Diabetes Prediction System project! This system aims to predict t
 
 - **Data Privacy:** Prioritizes the privacy and security of user health data, adhering to best practices and compliance with relevant regulations.
 
-- **Educational Resources:** Offers educational resources on diabetes prevention, management, and healthy lifestyle choices.
-
 ## Screenshots
 
 ![Screenshot 1](screenshots/Screenshot_2023-11-22_13_54_26.png)
@@ -29,6 +27,7 @@ Welcome to the Diabetes Prediction System project! This system aims to predict t
 ### Prerequisites
 
 - [Python](https://www.python.org/) installed
+- - [Flask]() installed
 - [pip](https://pypi.org/project/pip/) (Python package installer) installed
 
 ### Installation

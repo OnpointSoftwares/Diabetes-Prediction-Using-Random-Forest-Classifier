@@ -1,4 +1,3 @@
-Copy code
 # Diabetes Prediction System
 
 ## Overview
@@ -17,6 +16,14 @@ Welcome to the Diabetes Prediction System project! This system aims to predict t
 
 - **Educational Resources:** Offers educational resources on diabetes prevention, management, and healthy lifestyle choices.
 
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+*Caption: Predicting diabetes likelihood based on user input.*
+
+![Screenshot 2](screenshots/screenshot2.png)
+*Caption: User-friendly interface for inputting health data.*
+
 ## Getting Started
 
 ### Prerequisites
@@ -29,5 +36,4 @@ Welcome to the Diabetes Prediction System project! This system aims to predict t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/OnpointSoftwares/diabetes-Prediction-Using-Random-Forest-Classifier.git
-cd diabetes-prediction-system
+git clone https://github.com/OnpointSoftwares/Diabetes-Prediction-Using-Random-Forest-Classifier
